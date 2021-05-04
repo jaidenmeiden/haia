@@ -1,8 +1,15 @@
 package proyecto;
 
 public class Data {
-	// estos datos se podrian calcular al azar
-	public static final int numeroSimbolos = 5;					// numero de simbolos a elegir
-	public static final int numeros[] = {75, 50, 6, 3, 9, 7};  	// en total hay "numeroSimbolos+1" numeros
-	public static final int resultadoObjetivo = 248;			// numero objetivo a conseguir	
+	// Un arreglo de 100 de dos número (1, 2) para identificar cual es la dirección esta activada.
+
+    // El fenotipo va a ser igual al genotipo
+
+    // Simuación por cada fase de 1 al 100 y sumas todos y te quedas con el mínimo obtenido entre
+    // los calculados y los máximos de cada semáforo (Cruce)
+
+    // Contador para un semáforo no puede estar en rojo durante más de 10 fases, le pones un valos
+    // tan malo que no se epude seleccionar para reproducirse.
+
+    // Torneo
 }

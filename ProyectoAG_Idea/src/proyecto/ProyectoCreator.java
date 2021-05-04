@@ -9,8 +9,7 @@ public class ProyectoCreator implements Creator<SelectGenotype<SemaforosIntersec
     @Override
     public SelectGenotype<SemaforosInterseccion> create() {
 
-        // El genotipo estara formado por "numeroSimbolos" matematicos elegidos al azar
-        // en nuestro caso la poblacion sera un conjunto de individuos, donde cada individuo son 5 simbolos
+        // Cruce simple y mutaciones por encima de 0.5
         return null;
     }
 }
